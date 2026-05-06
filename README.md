@@ -159,3 +159,15 @@ The evaluation checks whether the agent:
 
 ## 8. Group member contributions
 
+Ahmad Amer Bakran:
+
+- Set up the project structure and Python environment.
+- Implemented the AutoGen agent workflow and CLI entry point.
+- Worked on request parsing, deterministic filtering and documentation.
+
+Mahmoud Eybo:
+
+- Worked on the Semantic Scholar API tool and API failure handling.
+- Helped test the agent with different prompts and reviewed evaluation output.
+- Helped prepare the demonstration and checked that the workflow matched the assignment requirements.
+
