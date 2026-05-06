@@ -1,7 +1,6 @@
 ﻿import json
 from typing import Optional
 
-from autogen import AssistantAgent
 
 from answer_formatter import deterministic_answer, format_constraints
 from config import get_llm_config
@@ -26,9 +25,10 @@ class ResearchScoutAgent:
     def __init__(self, use_llm: bool = True, search_limit: int = 30):
         self.use_llm = use_llm
         self.search_limit = search_limit
-        self.assistant: Optional[AssistantAgent] = None
+        self.assistant: Optional[object] = None
 
         if use_llm:
+            from autogen import AssistantAgent
             self.assistant = AssistantAgent(
                 name="ResearchScout",
                 system_message=(
