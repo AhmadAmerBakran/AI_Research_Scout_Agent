@@ -4,7 +4,7 @@ from typing import Annotated, Any
 
 import requests
 
-from research_scout_agent.models import Paper
+from models import Paper
 
 SEMANTIC_SCHOLAR_SEARCH_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 

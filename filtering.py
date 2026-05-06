@@ -1,6 +1,6 @@
 ﻿import math
 import re
-from research_scout_agent.models import Paper, SearchConstraints
+from models import Paper, SearchConstraints
 
 STOP_WORDS = {
     "the", "a", "an", "and", "or", "for", "of", "to", "in", "on", "with",

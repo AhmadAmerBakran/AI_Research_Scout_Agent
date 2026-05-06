@@ -1,4 +1,4 @@
-﻿from research_scout_agent.models import AgentResult, Paper, SearchConstraints
+﻿from models import AgentResult, Paper, SearchConstraints
 
 
 def format_constraints(constraints: SearchConstraints) -> str:

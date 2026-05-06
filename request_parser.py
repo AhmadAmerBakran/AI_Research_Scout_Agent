@@ -1,6 +1,6 @@
 ﻿import re
 from datetime import datetime
-from research_scout_agent.models import SearchConstraints
+from models import SearchConstraints
 
 _YEAR = r"(19\d{2}|20\d{2})"
 _NUMBER = r"(\d{1,3}(?:,\d{3})+|\d+)"
